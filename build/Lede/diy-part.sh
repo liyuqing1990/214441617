@@ -34,7 +34,7 @@ export OpenClash_branch="master"            # OpenClash代码选择分支（mast
 export OpenClash_Core="1"                   # 增加OpenClash时,把核心下载好,(填1为下载{dev}单核,填2为下载{dev/meta/premium}三核,填0为不需要核心)
 
 # 个性签名,默认增加年月日[$(TZ=UTC-8 date "+%Y.%m.%d")]
-export Customized_Information="OpenWrt Li $(TZ=UTC-8 date "+%Y.%m.%d")"  # 个性签名,你想写啥就写啥，(填0为不作修改)
+export Customized_Information="OpenWrt Li VIP:214441617 $(TZ=UTC-8 date "+%Y.%m.%d")"  # 个性签名,你想写啥就写啥，(填0为不作修改)
 
 # 更换固件内核
 export Replace_Kernel="6.1"                    # 更换内核版本,在对应源码的[target/linux/架构]查看patches-x.x,看看x.x有啥就有啥内核了(填入内核版本号,填0为不作修改)
