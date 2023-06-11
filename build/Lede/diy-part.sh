@@ -30,7 +30,7 @@ export Enable_IPV6_function="0"             # 编译IPV6固件(1为启用命令,
 export Enable_IPV4_function="0"             # 编译IPV4固件(1为启用命令,填0为不作修改)(如果跟Enable_IPV6_function一起启用命令的话,此命令会自动关闭)
 
 # OpenClash
-export OpenClash_branch="master"            # OpenClash代码选择分支（master 或 dev）(填0为不需要此插件)
+export OpenClash_branch="0"            # OpenClash代码选择分支（master 或 dev）(填0为不需要此插件)
 export OpenClash_Core="1"                   # 增加OpenClash时,把核心下载好,(填1为下载{dev}单核,填2为下载{dev/meta/premium}三核,填0为不需要核心)
 
 # 个性签名,默认增加年月日[$(TZ=UTC-8 date "+%Y.%m.%d")]
